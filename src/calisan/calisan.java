@@ -23,11 +23,22 @@ public  calisan(){
 
     public void calisanBilgileriGoster(){
 System.out.println("calisan bilgileri");
-System.out.println("no"+no);
-        System.out.println("isim"+isim);
-        System.out.println("soyisim"+soyisim);
-        System.out.println("tecrube"+tecrube);
-        System.out.println("maas"+maas);
+System.out.println("no "+no);
+        System.out.println("isim: "+isim);
+        System.out.println("soyisim: "+soyisim);
+        System.out.println("tecrube: "+tecrube);
+        System.out.println("maas: "+maas);
+}
+
+public void zamyap(int zamDegeri){
+    System.out.println("zamsız hali :"+maas);
+    System.out.println("zamlı hali :"+(maas+zamDegeri));
+    maas=maas+zamDegeri;
+
+}
+
+public void formatlama(String isletimsistemi ,  String kimAtiyor){
+    System.out.println(kimAtiyor + " kişisi "+isletimsistemi+ " isletim sistemine format atiyor ");
 }
 
 }
